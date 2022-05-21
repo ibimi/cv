@@ -1,0 +1,179 @@
+.a {
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 11px;
+}
+
+a:hover {
+  color: white;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.bottom-c {
+  display: block;
+  position: absolute;
+  margin-left: 22%
+}
+
+.bum-side {
+  background-color: #ffdaa1;
+  position: relative;
+  margin: 0;
+}
+
+.contact-me {
+  margin: 0 auto 100px auto;
+  width: 50%;
+}
+
+/*setting a margin to 'auto' makes it equal or rather centres it on both sides.*/
+div {
+  position: relative;
+}
+
+.feet {
+  color: #eaf6f6;
+  padding: 0 0 15px;
+  font-size: 0.75rem;
+}
+
+.footer-link {
+  color: #E6BA95;
+  display: inline-block;
+  padding: 15px;
+}
+
+h1 {
+  color: #E5CB9F;
+  font-size: 562.5%;
+  font-family: 'Sacramento', serif;
+  /*100% font size/1em = 16px...% is a Dynamic font size (aka fonts that remain the way you want them to even when the user zooms in and/or out.)*/
+  margin: auto 30px auto 30px;
+  line-height: 2;
+}
+
+h2 {
+  color: #E5CB9F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: auto 30px auto 30px;
+}
+
+h3 {
+  color: #E6BA95;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 15px;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #DDDDDD;
+  border-width: 5px;
+  width: 5%;
+  margin: 90px auto 90px auto;
+}
+
+.injure {
+  margin-bottom: 50px;
+}
+
+.mnt {
+  display: inline-block;
+  margin: auto 100px auto 100;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.my-image {
+  height: 11.25rem;
+  width: 11.25rem;
+  border-radius: 50%;
+  margin-top: 90px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  padding-top: 15px;
+}
+
+.poundedyam {
+  height: 180px;
+  width: 180px;
+  border-radius: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.pro {
+  text-decoration: line-through;
+}
+
+.profile {
+  margin: auto;
+  width: 30%;
+}
+
+.skill-row {
+  margin: 70px auto 70px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.tailoring-image {
+  height: 180px;
+  width: 180px;
+  border-radius: 20%;
+  float: left;
+  /* float makes an image (or whatever) allign beside a text in a div. Whilst clear does not alow any image (or stuvv) allign to the side of a text in a div. Can be said to be the anti-float*/
+  margin-right: 30px;
+}
+
+.topside {
+  background-color: papayawhip;
+}
+
+.top-c {
+  position: relative;
+  left: 350px;
+  padding-top: 15px;
+}
+
+.btn {
+  background: #d4a628;
+  background-image: -webkit-linear-gradient(top, #d4a628, #b8af2b);
+  background-image: -moz-linear-gradient(top, #d4a628, #b8af2b);
+  background-image: -ms-linear-gradient(top, #d4a628, #b8af2b);
+  background-image: -o-linear-gradient(top, #d4a628, #b8af2b);
+  background-image: linear-gradient(to bottom, #d4a628, #b8af2b);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fcef3c;
+  background-image: -webkit-linear-gradient(top, #fcef3c, #8fd934);
+  background-image: -moz-linear-gradient(top, #fcef3c, #8fd934);
+  background-image: -ms-linear-gradient(top, #fcef3c, #8fd934);
+  background-image: -o-linear-gradient(top, #fcef3c, #8fd934);
+  background-image: linear-gradient(to bottom, #fcef3c, #8fd934);
+  text-decoration: none;
+}
